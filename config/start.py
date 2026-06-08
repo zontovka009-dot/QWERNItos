@@ -11,11 +11,10 @@ from config.db import (
     user_touch, user_get, user_set, user_name,
     ban_check, owner_check, is_pro,
     proj_get, app_for_user, ref_apply, reflink,
-)
-from config.keyboards import (
-    reply_main,
-    kb_main_inline, kb_cancel, kb_back,
-    kb_pro, delete_prev, save_bot_msg,
+)from config.keyboards import (
+    reply_main, reply_cancel,
+    safe_edit, safe_send, delete_prev,
+    save_msg_id, REPLY_BUTTON_MAP,
 )
 from config.states import S_ONBOARD, S_APP_FILL
 
