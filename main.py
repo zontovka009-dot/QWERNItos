@@ -97,7 +97,7 @@ from config.keyboards import (
     reply_main, handle_reply_button, safe_edit,
     REPLY_BUTTON_MAP,
 )
-from config.keyboard import handle_reply_button, reply_kbd, REPLY_ROUTES
+from config.keyboards import handle_reply_button, reply_main, REPLY_BUTTON_MAP
 
 logging.basicConfig(
     format="%(asctime)s  [%(levelname)-8s]  %(name)s — %(message)s",
