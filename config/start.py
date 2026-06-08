@@ -11,7 +11,6 @@ from config.db import (
     user_touch, user_get, user_set, user_name,
     ban_check, owner_check, is_pro,
     proj_get, app_for_user, ref_apply, reflink,
-    PLANS, FREE_PROJ_LIMIT,
 )
 from config.keyboards import (
     reply_main, REPLY_TO_CALLBACK,
